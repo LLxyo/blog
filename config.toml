@@ -1,0 +1,36 @@
+baseURL = "https://llxyo.github.io/blog/"
+languageCode = "ja"
+title = "LLxyo-blog"
+author = "LLxyo"
+paginate = 4
+favicon = "favicon.ico"
+publishDir = "blog"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  post = "/:filename/"
+
+[imaging]
+  quality =  99
+
+[params]
+  description =  "<b>I'm LLxyo.</b><br><b>I mainly blog about comics, anime, abd so on.</b>"
+  katex =  true
+
+[menu]
+   [[menu.nav]]
+     name =  "Blog"
+      url=  "/post/"
+      weight =  1
+   [[menu.nav]]
+     name =  "Tags"
+      url =  "/tags/"
+      weight =  2
+
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+
+[blackfriday]
+  hrefTargetBlank = true
