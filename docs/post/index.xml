@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on LLxyo-blog</title>
+    <title>Posts on LLxyo-Blog</title>
     <link>https://llxyo.github.io/blog/post/</link>
-    <description>Recent content in Posts on LLxyo-blog</description>
+    <description>Recent content in Posts on LLxyo-Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 11 Mar 2020 16:35:04 +0900</lastBuildDate>

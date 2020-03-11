@@ -4,7 +4,7 @@ title = "LLxyo-Blog"
 author = "LLxyo"
 paginate = 4
 favicon = "favicon.ico"
-publishDir = "blog"
+publishDir = "docs"
 
 [taxonomies]
   tag = "tags"
