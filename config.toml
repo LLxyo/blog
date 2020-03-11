@@ -1,6 +1,6 @@
 baseURL = "https://llxyo.github.io/blog/"
 languageCode = "ja"
-title = "LLxyo-blog"
+title = "LLxyo-Blog"
 author = "LLxyo"
 paginate = 4
 favicon = "favicon.ico"
