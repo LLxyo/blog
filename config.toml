@@ -1,4 +1,4 @@
-baseURL = "https://llxyo.github.io/blog/"
+baseURL = "https://llxyo.github.io/"
 languageCode = "ja"
 title = "LLxyo-Blog"
 author = "LLxyo"
@@ -10,13 +10,13 @@ publishDir = "docs"
   tag = "tags"
 
 [permalinks]
-  post = "/:filename/"
+  post = "/post/:filename/"
 
 [imaging]
   quality =  99
 
 [params]
-  description =  "<b>I'm LLxyo.</b><br><b>I mainly blog about comics, anime, abd so on.</b>"
+  description =  "<b>I'm LLxyo.</b><br><b>I mainly blog about comics, anime, and so on.</b>"
   katex =  true
 
 [menu]
