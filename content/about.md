@@ -3,8 +3,9 @@ title: "About"
 ---
 ## I'm LLxyo.
 <li>I'm interested in Persian culture, language, etc.</li>
-<li>I like anime, comics and documentary programs.
-<li>I'm known as Shishou too.</li>
+<li>I like anime, comics and documentary programs.</li>
+<li>LLxyo is pronounced as Shishou.</li>  
+
 ## Accounts
 <li>[Twitter](https://twitter.com/LLxyo)</li>
 <li><a rel="me" href="https://best-friends.chat/@LLxyo" target="_blank">Mastodon(best-friends.chat)</a></li>
