@@ -2,7 +2,7 @@ baseURL = "https://llxyo.github.io/"
 languageCode = "ja"
 title = "LLxyo-Blog"
 author = "LLxyo"
-paginate  10
+paginate = 10
 favicon = "/static/favicon.ico"
 publishDir = "docs"
 
