@@ -1,10 +1,10 @@
 ---
 date: "2017-06-26T18:27:58+01:00"
-title: "Home"
+title: "LLxyo-Blog"
 ---
+</br></br>
 
-Welcome to LLxyo-Blog.  
-I mainly blog about comics, anime, and so on.
+#### Archives of my feeling and moving inspired by anime and comics
 
 {{< ticks >}}
 

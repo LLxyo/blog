@@ -3,6 +3,8 @@ languageCode = "ja"
 title = "LLxyo-Blog"
 author = "LLxyo"
 paginate = 10
+contentdir = "content"
+layoutdir = "layouts"
 favicon = "/static/favicon.ico"
 publishDir = "docs"
 
@@ -36,6 +38,10 @@ publishDir = "docs"
      name = "RSS"
      url = "/index.xml"
      weight = 4
+   [[menu.nav]]
+     name = "in Farsi"
+     url = "/fa/"
+     weight = 5
 
 [markup]
   defaultMarkdownHandler = "blackfriday"
