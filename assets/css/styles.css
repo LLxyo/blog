@@ -201,7 +201,9 @@ dd ul {
 dd li + li {
   margin: 0;
 }
-
+.related{
+    background: url(images/star.svg) left 3px top 3px no-repeat;
+    }
 /* Blockquotes */
 blockquote {
   border-left: 0.5rem solid;

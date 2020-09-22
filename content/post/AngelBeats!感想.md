@@ -2,7 +2,7 @@
 title: "AngelBeats!感想"
 date: 2020-05-26T09:16:12+09:00
 draft: true
-tags: ["Angel Beats!","anime"]
+tags: ["Angel Beats!","anime","P.A.WORKS","key","学園","ファンタジー","群像劇"]
 share: true
 ---
 青春　人生の意義
