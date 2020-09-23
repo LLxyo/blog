@@ -1,8 +1,9 @@
 ---
-title: "Fate/stay night [Heaven's Feel]感想"
+title: "劇場版 Fate/stay night [Heaven's Feel] 感想"
 date: 2020-08-17T12:30:09+09:00
 draft: false
-tags: ["movie","anime","Fate","ufotable","type-moon","ダークファンタジー"]
+categories: ["anime","movie"]
+tags: ["Fate","ufotable","type-moon","ダークファンタジー"]
 share: true
 ---
 ### 善悪の所在  
