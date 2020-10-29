@@ -1,6 +1,6 @@
 baseURL = "https://llxyo.github.io/"
 languageCode = "ja"
-title = "LLxyo-Blog"
+title = "LLxyo-Daydreams"
 author = "LLxyo"
 paginate = 10
 contentdir = "content"
@@ -10,8 +10,7 @@ publishDir = "docs"
 googleAnalytics = "UA-110948318-1"
 archive = "archives"
 
-[build]
-command = "hugo --theme=dimension --buildDrafts --gc --minify"
+
 
 [taxonomies]
   tag = "tags"
@@ -30,7 +29,7 @@ command = "hugo --theme=dimension --buildDrafts --gc --minify"
 
 [menu]
    [[menu.nav]]
-     name =  "Blog"
+     name =  "Posts"
      url=  "/post/"
      weight =  1
 [[menu.nav]]
