@@ -10,6 +10,9 @@ publishDir = "docs"
 googleAnalytics = "UA-110948318-1"
 archive = "archives"
 
+[build]
+command = "hugo --theme=dimension --buildDrafts --gc --minify"
+
 [taxonomies]
   tag = "tags"
   category = "categories"
