@@ -2,7 +2,7 @@
 title: "About"
 ---
 ## I'm LLxyo.
-<li>I like anime, comics and documentary programs.<
+<li>I like anime, comics and documentary programs.</li>
 <li>LLxyo is pronounced as Shishou.</li>  
 
 ## My Accounts
