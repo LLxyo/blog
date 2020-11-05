@@ -27,7 +27,7 @@ summaryLength = 60
 titile = "LLxyo-Daydreams"
   description =  "<b>I'm LLxyo.</b><br><b>I mainly blog about comics, anime, and so on.</b>"
   katex =  true
-  images = ["favicon-96x96.png"]
+  images = ["Card.png"]
 
 [menu]
    [[menu.nav]]
