@@ -9,7 +9,8 @@ favicon = "/static/favicon.ico"
 publishDir = "docs"
 googleAnalytics = "UA-110948318-1"
 archive = "archives"
-
+hasCJKLanguage = true
+summaryLength = 60
 
 
 [taxonomies]
@@ -23,9 +24,10 @@ archive = "archives"
   quality =  99
 
 [params]
+titile = "LLxyo-Daydreams"
   description =  "<b>I'm LLxyo.</b><br><b>I mainly blog about comics, anime, and so on.</b>"
   katex =  true
-  images = "favicon-96x96.png"
+  images = ["favicon-96x96.png"]
 
 [menu]
    [[menu.nav]]
