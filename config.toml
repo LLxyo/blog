@@ -24,8 +24,8 @@ summaryLength = 60
   quality =  99
 
 [params]
-titile = "LLxyo-Daydreams"
-  description =  "<b>I'm LLxyo.</b><br><b>I mainly blog about comics, anime, and so on.</b>"
+  titile = "LLxyo-Daydreams"
+  description =  "<b>I'm LLxyo.</b><br><b>I mainly blog about anime, comics and light novels like that.</b>"
   katex =  true
   images = ["Card.png"]
 
