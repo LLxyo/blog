@@ -3,7 +3,7 @@ title: "劇場版「鬼滅の刃」無限列車編 感想"
 date: 2020-10-19T17:49:07+09:00
 draft: false
 categories: ["anime","movie"]
-tags: ["鬼滅の刃",ダークファンタジー]
+tags: ["鬼滅の刃","ダークファンタジー","ufotable"]
 share: true
 ---
 ### 良くも悪くも手に汗を握らされる展開
