@@ -1,6 +1,6 @@
 baseURL = "https://llxyo.github.io/"
 languageCode = "ja"
-title = "LLxyo-Daydreams"
+title = "LLxyo's Daydreams"
 author = "LLxyo"
 paginate = 10
 contentdir = "content"
@@ -24,7 +24,7 @@ summaryLength = 60
   quality =  99
 
 [params]
-  titile = "LLxyo-Daydreams"
+  title = "LLxyo's Daydreams"
   description =  "<b>I'm LLxyo.</b><br><b>I mainly blog about anime, comics and light novels like that.</b>"
   katex =  true
   images = ["Card.png"]

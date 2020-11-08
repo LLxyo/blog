@@ -2,8 +2,9 @@
 title: "About"
 ---
 ## I'm LLxyo.
-<li>I like anime, comics and documentary programs.</li>
-<li>I study Farsi.</li>
+<li>Anime, comics enthusiast.</li>
+<li>Sometimes, light novel reader or documentary watcher.</li>
+<li>Persian learner.</li>
 <li>LLxyo is pronounced as Shishou.</li>  
 
 ## My Accounts
