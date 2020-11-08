@@ -12,7 +12,6 @@ archive = "archives"
 hasCJKLanguage = true
 summaryLength = 60
 
-
 [taxonomies]
   tag = "tags"
   category = "categories"
