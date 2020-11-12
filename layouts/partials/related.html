@@ -1,6 +1,6 @@
-{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ $related := .Site.RegularPages.Related . | first 7 }}
 {{ with $related }}
-<h3>See Also</h3>
+<h3>See Also</h3> <!--firstで表示する記事数指定-->
 <ul>
   {{ range . }}
   <li class="related"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>

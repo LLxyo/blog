@@ -13,8 +13,10 @@ hasCJKLanguage = true
 summaryLength = 60
 
 [taxonomies]
-  tag = "tags"
   category = "categories"
+  series = "series"
+  brand = "brand"
+  genre = "genre"
 
 [permalinks]
   post = "/post/:filename/"
@@ -28,6 +30,27 @@ summaryLength = 60
   katex =  true
   images = ["Card.png"]
 
+[related]
+  includeNewer = false
+  threshold = 80
+  toLower = false
+
+  [[related.indices]] # relatedに関連付ける要素とその度合いを指定
+    name = "series"
+    weight = 100
+  
+  [[related.indices]]
+    name = "genre"
+    weight = 80
+
+  [[related.indices]]
+    name = "brand"
+    weight = 80
+  
+  [[related.indices]]
+    name = "categories"
+    weight = 50
+
 [menu]
    [[menu.nav]]
      name =  "Posts"
@@ -37,9 +60,9 @@ summaryLength = 60
      name =  "Categories"
      url =  "/categories/"
      weight =  2
-   [[menu.nav]]
+   [[menu.nav]] # taxonomies一覧にリンク
      name =  "Tags"
-     url =  "/tags/"
+     url =  "/taxonomies/"
      weight =  3
    [[menu.nav]]
      name = "About"
@@ -56,6 +79,10 @@ summaryLength = 60
 
 [markup]
   defaultMarkdownHandler = "blackfriday"
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+      unsafe = true
 
 [blackfriday]
   hrefTargetBlank = true

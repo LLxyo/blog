@@ -3,7 +3,7 @@
     <h1>{{ .Title }}</h1>
     <ul class="patterns-list">
     {{ range .Pages.ByPublishDate.Reverse }}
-      <li>
+      <li class="article">
         <h2>
           <a href="{{ .Permalink }}">
             <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">

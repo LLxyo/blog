@@ -3,7 +3,9 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 categories: [""]
-tags: ["",""]
+series: [""]
+brand: [""]
+genre: [""]
 share: true
 ---
 {{< figureCupper

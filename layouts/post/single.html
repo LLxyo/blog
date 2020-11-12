@@ -37,17 +37,50 @@
 </div>
 {{ end }}
 
+{{ with .Params.series }}
+<div class="tags">
+  <strong aria-hidden="true">Series: </strong>
+  <ul aria-label="series">
+    {{ range . }}
+      <li>
+        <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+          <use xlink:href="#tag"></use>
+        </svg>
+        {{ $href := print ("series/" | absLangURL) (. | urlize) "/" }}
+        <a href="{{ $href }}">{{ . }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
 
-    {{ with .Params.tags }}
-      <div class="tags">
-        <strong aria-hidden="true">Tags: </strong>
-        <ul aria-label="tags">
+{{ with .Params.brand }}
+<div class="tags">
+  <strong aria-hidden="true">Brand: </strong>
+  <ul aria-label="brand">
+    {{ range . }}
+      <li>
+        <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+          <use xlink:href="#tag"></use>
+        </svg>
+        {{ $href := print ("brand/" | absLangURL) (. | urlize) "/" }}
+        <a href="{{ $href }}">{{ . }}</a>
+      </li>
+    {{ end }}
+  </ul>
+
+{{ end }}
+
+    {{ with .Params.genre }}
+
+        <strong aria-hidden="true">Genre: </strong>
+        <ul aria-label="genre">
           {{ range . }}
             <li>
               <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
                 <use xlink:href="#tag"></use>
               </svg>
-              {{ $href := print ("tags/" | absLangURL) (. | urlize) "/" }}
+              {{ $href := print ("genre/" | absLangURL) (. | urlize) "/" }}
               <a href="{{ $href }}">{{ . }}</a>
             </li>
           {{ end }}
