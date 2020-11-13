@@ -1,5 +1,5 @@
 # Notes for me  
-^ cssはassetes/css/template-styles.cssがpublic/css/styles.cssとして出力される
+- cssはassetes/css/template-styles.cssがpublic/css/styles.cssとして出力される
 
  ## Taxonomies
 - taxonomies = [tagsやcategoriesなど] terms = [各tagsやcategoriesの文字列]  
