@@ -1,4 +1,5 @@
 # Notes for me  
+# CSS
 - cssはassetes/css/template-styles.cssがpublic/css/styles.cssとして出力される
 
  ## Taxonomies
