@@ -72,10 +72,7 @@ summaryLength = 60
      name = "RSS"
      url = "/index.xml"
      weight = 5
-   [[menu.nav]]
-     name = "in Farsi"
-     url = "/fa/"
-     weight = 6
+
 
 [markup]
   defaultMarkdownHandler = "blackfriday"
